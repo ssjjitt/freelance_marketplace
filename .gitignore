@@ -1,0 +1,76 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+Thumbs.db
+.DS_Store
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# Docker
+docker-compose.override.yml
+
+# Archives (optional - uncomment if you want to ignore archive files)
+# *.rar
+# *.zip
+# *.tar.gz
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Package manager locks (optional - uncomment if you want to ignore lock files)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Vite
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: Office temp files (you have some ~$ files)
+~$*
+

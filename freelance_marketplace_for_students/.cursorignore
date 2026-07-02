@@ -1,0 +1,32 @@
+# зависимости
+node_modules/
+dist/
+build/
+.next/
+
+# логи и временные файлы
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.stylelintcache
+
+# базы данных и докер
+.docker/
+mysql_data/
+pg_data/
+
+# секреты (курсору лучше не сканировать их без нужды)
+.env
+.env.*
+*.pem
+*.key
+
+# прочее
+.git/
+.idea/
+.vscode/
+*.exe
+*.dll
+*.so
